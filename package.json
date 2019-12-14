@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/landrykapela/postcodes-tz#readme",
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "jest": "^24.9.0"
   }
 }
