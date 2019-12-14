@@ -4,7 +4,7 @@
   "description": "A library to get a list of postcodes for Tanzania",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,7 @@
     "url": "https://github.com/landrykapela/postcodes-tz/issues"
   },
   "homepage": "https://github.com/landrykapela/postcodes-tz#readme",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+  "devDependencies": {
+    "jest": "^24.9.0"
   }
 }

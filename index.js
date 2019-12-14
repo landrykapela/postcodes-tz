@@ -8,16 +8,16 @@ exports.getPostcode = name => {
       // name.replace("-", " ");
       return r.name.toLowerCase() == name.toLowerCase();
     } else {
-      throw new Error("The method getPostcode() expects a name parameter");
+      throw (TypeError, "The method getPostcode() expects a name parameter");
     }
   });
   if (result.length > 0) {
     let postcode = result[0].postcode;
-    console.log("result: ", postcode);
+    // console.log("result: ", postcode);
     return postcode;
   } else {
-    console.log("result: ", name + " is not a valid region/city in Tanzania");
-    return "N/A";
+    // console.log("result: ", name + " is not a valid region/city in Tanzania");
+    return "Unknown";
   }
 };
 
