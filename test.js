@@ -16,3 +16,23 @@ test("find postcode without city name", () => {
     postcode.getPostcode();
   }).toThrow("The method getPostcode() expects a name parameter");
 });
+
+test("Get list of city names with postcodes", () => {
+  expect(postcode.getPostcodes()).toHaveLength(30);
+});
+
+//get city names when no sort order specified
+test("Get list of city name without sort order parameter", () => {
+  let id1 = postcode.getCityNames()[9];
+  expect(id1).toBe("Kilimanjaro");
+});
+
+test("Get list of city names sorted in ascending order", () => {
+  let lastCity = postcode.getCityNames("asc")[29];
+  expect(lastCity).toBe("Tanga");
+});
+
+test("Get list of city names sorted in descending order", () => {
+  let lastCity = postcode.getCityNames("desc")[29];
+  expect(lastCity).toBe("Arusha");
+});
