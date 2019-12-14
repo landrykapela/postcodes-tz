@@ -1,0 +1,35 @@
+{
+  "name": "postcodes-tz",
+  "version": "1.0.0",
+  "description": "A library to get a list of postcodes for Tanzania",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landrykapela/postcodes-tz.git"
+  },
+  "keywords": [
+    "postcodes",
+    "tanzania",
+    "cities",
+    "postcodes-tz",
+    "landrykapela",
+    "landry",
+    "kapela",
+    "post",
+    "code",
+    "zipcode"
+  ],
+  "author": "Landry Kapela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landrykapela/postcodes-tz/issues"
+  },
+  "homepage": "https://github.com/landrykapela/postcodes-tz#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
