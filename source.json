@@ -29,6 +29,7 @@
     { "id": 26, "code": "", "postcode": 39000, "name": "Simiyu" },
     { "id": 27, "code": "", "postcode": 43000, "name": "Singida" },
     { "id": 28, "code": "", "postcode": 54100, "name": "Songwe" },
-    { "id": 29, "code": "TA", "postcode": 21000, "name": "Tanga" }
+    { "id": 29, "code": "", "postcode": 45000, "name": "Tabora" },
+    { "id": 30, "code": "TA", "postcode": 21000, "name": "Tanga" }
   ]
 }
