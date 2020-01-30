@@ -1,7 +1,7 @@
 {
   "name": "postcodes-tz",
-  "version": "1.0.0",
-  "description": "A library to get a list of postcodes for Tanzania",
+  "version": "1.0.1",
+  "description": "A library to get a list of cities/regions, districts and related postcodes for Tanzania",
   "main": "index.js",
   "scripts": {
     "test": "jest",
