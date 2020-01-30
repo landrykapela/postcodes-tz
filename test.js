@@ -18,7 +18,7 @@ test("find postcode without city name", () => {
 });
 
 test("Get list of city names with postcodes", () => {
-  expect(postcode.getPostcodes()).toHaveLength(30);
+  expect(postcode.getPostcodes()).toHaveLength(31);
 });
 
 //get city names when no sort order specified
@@ -28,11 +28,11 @@ test("Get list of city name without sort order parameter", () => {
 });
 
 test("Get list of city names sorted in ascending order", () => {
-  let lastCity = postcode.getCityNames("asc")[29];
+  let lastCity = postcode.getCityNames("asc")[30];
   expect(lastCity).toBe("Tanga");
 });
 
 test("Get list of city names sorted in descending order", () => {
-  let lastCity = postcode.getCityNames("desc")[29];
+  let lastCity = postcode.getCityNames("desc")[30];
   expect(lastCity).toBe("Arusha");
 });
