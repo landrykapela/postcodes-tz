@@ -1,0 +1,457 @@
+{
+  "districts": [
+    {
+      "id": 0,
+      "name": "Ilala CBD",
+      "region": 1,
+      "postcode": 11,
+      "wards": [
+        {
+          "name": "Kivukoni",
+          "postcode": 11101,
+          "mitaa": ["Kivukoni", "Sea View"]
+        },
+        {
+          "name": "Upanga Mashariki",
+          "postcode": 11102,
+          "mitaa": ["Kitonga", "Kibasila"]
+        },
+        {
+          "name": "Upanga Magharibi",
+          "postcode": 11103,
+          "mitaa": ["Fire", "Charambe", "Mfaume"]
+        },
+        {
+          "name": "Kisutu",
+          "postcode": 11104,
+          "mitaa": ["Kisutu", "Mtendeni"]
+        },
+        {
+          "name": "Mchafukoge",
+          "postcode": 11105,
+          "mitaa": ["Kitumbini", "Mchafukoge"]
+        },
+        {
+          "name": "Kariakoo",
+          "postcode": 11106,
+          "mitaa": [
+            "Kariakoo Magharibi",
+            "Kariakoo Kaskazini",
+            "Kariakoo Mashariki"
+          ]
+        },
+        {
+          "name": "Gerezani",
+          "postcode": 11107,
+          "mitaa": ["Gerezani Mashariki", "Gerezani Magharibi"]
+        },
+        {
+          "name": "Jangwani",
+          "postcode": 11108,
+          "mitaa": ["Ukombozi", "Mnazi Mmoja", "Mtambani A", "Mtambani B"]
+        },
+        {
+          "name": "Mchikichini",
+          "postcode": 11109,
+          "mitaa": ["Mission Quarter", "Ilala Kota", "Msimbazi Bondeni"]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Ilala",
+      "region": 1,
+      "postcode": 12,
+      "wards": [
+        {
+          "name": "Ilala",
+          "postcode": 12101,
+          "mitaa": ["Mafuriko", "Kasulu", "Karume", "Shariff Shamba", "Amana"]
+        },
+        {
+          "name": "Buguruni",
+          "postcode": 12102,
+          "mitaa": ["Malapa", "Madenge", "Kisiwani", "Mvinjeni"]
+        },
+        {
+          "name": "Tabata",
+          "postcode": 12103,
+          "mitaa": [
+            "Mandela",
+            "Tabata",
+            "Matumbi",
+            "Msimbazi",
+            "Kisiwani",
+            "Tenge",
+            "Mtambani",
+            "Msimbazi",
+            "Magharibi"
+          ]
+        },
+        {
+          "name": "Kimanga",
+          "postcode": 12104,
+          "mitaa": [
+            "Tembomgwaza",
+            "Kimanga",
+            "Kimanga",
+            "Darajani",
+            "Banebane",
+            "Kihimbwa",
+            "Sokoine",
+            "Twiga"
+          ]
+        },
+        {
+          "name": "Segerea",
+          "postcode": 12105,
+          "mitaa": ["Mgombani", "Ugombolwa", "Segerea", "Mfaume"]
+        },
+        {
+          "name": "Kipawa",
+          "postcode": 12106,
+          "mitaa": [
+            "Mogo",
+            "Karakata",
+            "Kipunguni",
+            "Stakishari",
+            "Uwanja wa Ndege",
+            "Mjimpya"
+          ]
+        },
+        {
+          "name": "Ukonga",
+          "postcode": 12107,
+          "mitaa": [
+            "Mwembe Madafu",
+            "Mazizini",
+            "Markaz",
+            "Mongo la Ndege",
+            "Sabasaba"
+          ]
+        },
+        {
+          "name": "Kiwalani",
+          "postcode": 11108,
+          "mitaa": ["Kigilagila", "Yombo", "Kiwalani"]
+        },
+        {
+          "name": "Vingunguti",
+          "postcode": 12109,
+          "mitaa": [
+            "Kombo",
+            "Miembeni",
+            "Mtakuja",
+            "Mtambani",
+            " Butiama",
+            "Majengo"
+          ]
+        },
+        {
+          "name": "Gongo la Mboto",
+          "postcode": 12110,
+          "mitaa": [
+            "Guluka Kwalala",
+            "Gongo la Mboto",
+            "Ulongoni A",
+            "Ulongoni B"
+          ]
+        },
+        {
+          "name": "Kitunda",
+          "postcode": 12111,
+          "mitaa": ["Kipera", "Kitunda", "Relini", "Kiyombo"]
+        },
+        {
+          "name": "Pugu",
+          "postcode": 12112,
+          "mitaa": [
+            "Kinyamwezi",
+            "Bombani",
+            "Kigogo Fresh 'A'",
+            "Kigogo Fresh 'B'",
+            "Mustapha"
+          ]
+        },
+        {
+          "name": "Majohe",
+          "postcode": 12113,
+          "mitaa": ["Mji Mpya", "Kichangani", "Kivule", "Rada", "Viwege"]
+        },
+        {
+          "name": "Msongola",
+          "postcode": 12114,
+          "mitaa": [
+            "Kitonga",
+            "Yangeyange",
+            "Mbondole",
+            "Mvuleni",
+            "Kiboga",
+            " Kidole",
+            "Mkera",
+            "Sangara",
+            "Uwanja wa Nyani"
+          ]
+        },
+        {
+          "name": "Chanika",
+          "postcode": 12115,
+          "mitaa": [
+            "Tungini",
+            "Yongwe",
+            "Lukomi",
+            "Vikongoro",
+            "Nguvu Mpya",
+            "Virobo",
+            "Kidugalo",
+            "Ngwale",
+            "Lukooni"
+          ]
+        },
+        {
+          "name": "Kinyerezi",
+          "postcode": 12116,
+          "mitaa": [
+            "TKinyerezi",
+            "Kifuru",
+            "Kwalimbaga",
+            "Kanga",
+            "Kichangani",
+            "Kibaga"
+          ]
+        },
+        {
+          "name": "Kivule",
+          "postcode": 12117,
+          "mitaa": ["Kivule", "Bombambili", "Karezange", "Magore A"]
+        },
+        {
+          "name": "Mnyamani",
+          "postcode": 12118,
+          "mitaa": ["Maluzuku", "Mji Mpya", "Faru", "Mnyamani"]
+        },
+        {
+          "name": "Liwiti",
+          "postcode": 12119,
+          "mitaa": ["Machimbo", "Liwiti", "Misewe", "Amani"]
+        },
+        {
+          "name": "Bonyokwa",
+          "postcode": 12120,
+          "mitaa": ["Bonyokwa", "Kisiwani", "Msingwa"]
+        },
+        {
+          "name": "Kipunguni",
+          "postcode": 12121,
+          "mitaa": ["Kipunguni B", "Kitinye", "Machimbo", "Amani"]
+        },
+        {
+          "name": "Kisukulu",
+          "postcode": 12122,
+          "mitaa": ["Luhanga", "Kisukulu", "Mianzini"]
+        },
+        {
+          "name": "Minazi Mirefu",
+          "postcode": 12123,
+          "mitaa": ["Mwale", "Migombani", "Minazi Mirefu"]
+        },
+        {
+          "name": "Buyuni",
+          "postcode": 12124,
+          "mitaa": [
+            "Zavala",
+            "Mgeule",
+            "Nyeburu",
+            "Kigezi",
+            "Kigezi Chini",
+            "Mgeule juu",
+            "Taliani"
+          ]
+        },
+        {
+          "name": "Zingiziwa",
+          "postcode": 12125,
+          "mitaa": [
+            "Nzasa",
+            "Zogoali",
+            "Zingiziwa",
+            "Lubakaya",
+            "Kimwani",
+            "Ngobedi",
+            "Somelo",
+            "Gogo"
+          ]
+        },
+        {
+          "name": "Mzinga",
+          "postcode": 12126,
+          "mitaa": ["Mwanagati", "Magole", "Mzinga"]
+        },
+        {
+          "name": "Pugu Station",
+          "postcode": 12127,
+          "mitaa": ["Bangulo", "Pugu station", "Kichangani"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kinondoni",
+      "region": 1,
+      "postcode": 14,
+      "wards": [
+        {
+          "name": "Magomeni",
+          "postcode": 14101,
+          "mitaa": ["Suna", "Makuti A", "Makuti B", "Dossi", "Idrisa"]
+        },
+        {
+          "name": "Mzimuni",
+          "postcode": 14102,
+          "mitaa": ["Idrisa", "Makumbusho", "Mtambani", "Mwinyimkuu"]
+        },
+        {
+          "name": "Ndugumbi",
+          "postcode": 14104,
+          "mitaa": ["Mpakani", "Mikoroshini", "Makanya", "Vigaeni"]
+        },
+        {
+          "name": "Kisutu",
+          "postcode": 11104,
+          "mitaa": ["Kisutu", "Mtendeni"]
+        },
+        {
+          "name": "Tandale",
+          "postcode": 14106,
+          "mitaa": [
+            "Mtogole",
+            "Kwa Tumbo",
+            "Pakacha",
+            "Sokoni",
+            "Mkunduge",
+            "Muhaltani"
+          ]
+        },
+        {
+          "name": "Makumbusho",
+          "postcode": 14107,
+          "mitaa": [
+            "Makumbusho",
+            "Minazini",
+            "Mchangani",
+            "Kisiwani",
+            "Mbuyuni",
+            "Singano"
+          ]
+        },
+        {
+          "name": "Mwananyamala",
+          "postcode": 14108,
+          "mitaa": [
+            "Kambangwa",
+            "Msisiri B",
+            "Msisiri A",
+            "Bwawani",
+            "Mwinjuma",
+            "Kwa Kopa",
+            "Msolomi"
+          ]
+        },
+        {
+          "name": "Jangwani",
+          "postcode": 11108,
+          "mitaa": ["Ukombozi", "Mnazi Mmoja", "Mtambani A", "Mtambani B"]
+        },
+        {
+          "name": "Mchikichini",
+          "postcode": 11109,
+          "mitaa": ["Mission Quarter", "Ilala Kota", "Msimbazi Bondeni"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Arusha CBD",
+      "region": 0,
+      "postcode": 23,
+      "wards": [
+        {
+          "name": "Sekei",
+          "postcode": 23101,
+          "mitaa": [
+            "Sanawari",
+            "Naurei",
+            "Mtaa wa AICC",
+            "Mtaa wa Mahakamani",
+            "Naura",
+            "Goliondoi"
+          ]
+        },
+        {
+          "name": "KATI",
+          "postcode": 23102,
+          "mitaa": ["Bondeni", "Pangani"]
+        },
+        {
+          "name": "KALOLENI",
+          "postcode": 23103,
+          "mitaa": ["Kaloleni Magharibi", "Mita 200", "Kaloleni Mashariki"]
+        },
+        {
+          "name": "LEVOLOSI",
+          "postcode": 23104,
+          "mitaa": ["Mtaa wa Levolosi", "Majengo"]
+        },
+        {
+          "name": "NGARENARO",
+          "postcode": 23105,
+          "mitaa": ["Kambi ya fisi", "Darajani", "NHC", "TCA", "Mita 200"]
+        },
+        {
+          "name": "ELERAI",
+          "postcode": 23106,
+          "mitaa": [
+            "Kware",
+            "Burka",
+            "Azimio",
+            "Shamsi",
+            "Samanga",
+            "Sacon",
+            "Remtula",
+            "Mama Musa",
+            "Ngurumo",
+            "Urundini",
+            "Shuma",
+            "Majengo A",
+            "Majengo B"
+          ]
+        },
+        {
+          "name": "UNGA LIMITED",
+          "postcode": 23107,
+          "mitaa": [
+            "Esso",
+            "Viwandani",
+            "Makaburi ya Baniani",
+            "Tindiga",
+            "Darajani",
+            "Osterbay"
+          ]
+        },
+        {
+          "name": "DARAJA II",
+          "postcode": 23108,
+          "mitaa": [
+            "Jamhuri",
+            "Alinyanya",
+            "Sanare",
+            "Tindiga",
+            "Darajani",
+            "Ndarvoi",
+            "Kati"
+          ]
+        }
+      ]
+    }
+  ]
+}
