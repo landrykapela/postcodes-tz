@@ -36,3 +36,13 @@ test("Get list of city names sorted in descending order", () => {
   let lastCity = postcode.getCityNames("desc")[30];
   expect(lastCity).toBe("Arusha");
 });
+
+test("Get list of districts for region given region id", () => {
+  let darDistricts = postcode.getDistrictsByRegionId(1)[0];
+  expect(darDistricts.name).toBe("Ilala CBD");
+});
+
+test("Get list of wards for given district id", () => {
+  let ward = postcode.getWardsForDistrict(1)[1];
+  expect(ward.name).toBe("Buguruni");
+});
