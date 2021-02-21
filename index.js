@@ -23,9 +23,9 @@ exports.getDistrictsRegionName = (regionName) => {
 };
 
 //get wards
-exports.getWardsForDistrict = (districtId) => {
+exports.getWardsForDistrictName = (districtName) => {
   let districts = districts_source.districts.filter((d) => {
-    return d.id == districtId;
+    return d.name.toLowerCase() == districtName.toLowerCase();
   });
   if (districts.length > 0) {
     let dist = districts[0];
@@ -34,13 +34,16 @@ exports.getWardsForDistrict = (districtId) => {
 };
 
 //get mitaa for ward
-exports.getMitaaForWard = (districtId) => {
+exports.getMitaaForWard = (districtName, wardName) => {
   let districts = districts_source.districts.filter((d) => {
-    return d.id == districtId;
+    return d.name.toLowerCase() == districtName.toLowerCase();
   });
   if (districts.length > 0) {
     let dist = districts[0];
-    return dist.wards;
+    let ward = dist.wards.filter((w) => {
+      return w.name.toLowerCase() == wardName.toLowerCase();
+    });
+    return ward[0].mitaa;
   } else return [];
 };
 

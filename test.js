@@ -43,6 +43,13 @@ test("Get list of districts for region given region id", () => {
 });
 
 test("Get list of wards for given district id", () => {
-  let ward = postcode.getWardsForDistrict(1)[1];
+  let ward = postcode.getWardsForDistrictName("Ilala")[1];
   expect(ward.name).toBe("Buguruni");
+});
+
+test("Get list of mitaa from a given ward in a district", () => {
+  let mitaa = postcode.getMitaaForWard("Temeke", "Sandali");
+  expect(mitaa.join()).toBe(
+    "Mamboleo A,Sandali,Mamboleo B,Mpogo,Mwembeladu,Tindwa,Mkwida,Veterinary,Usalama,Kimbunga,Mwembemnofu,Kisiwani"
+  );
 });
