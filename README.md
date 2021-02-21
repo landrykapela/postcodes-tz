@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.com/landrykapela/postcodes-tz.svg?branch=dev)](https://travis-ci.com/landrykapela/postcodes-tz)
 
+
+[![landrykapela](https://circleci.com/gh/landrykapela/postcodes-tz.svg?style=svg)](https://www.npmjs.com/package/postcodes-tz?activeTab=readme)
+
+
 A library to get a list of postcodes for Tanzania
 The row data about the cities/regions and their posts codes is in the source.json file. This data was extracted from the TCRA resources publications
 
